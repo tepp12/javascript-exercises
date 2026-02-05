@@ -6,7 +6,7 @@ const fibonacci = function(num) {
         return 1
     }
     if (num < 0){
-        return
+        return "OOPS"
     }
     let result = Math.round(Math.pow((1/2)*(1+(Math.sqrt(5))), num)/Math.sqrt(5))
     return result
